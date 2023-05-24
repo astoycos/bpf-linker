@@ -387,7 +387,7 @@ dependencies = [
 [[package]]
 name = "llvm-sys"
 version = "160.0.2"
-source = "git+https://github.com/davibe/llvm-sys.rs.git?branch=add-replace-md-operand#fe9fd58592382c915b8ffc8ac27b4ca235b560fe"
+source = "git+https://github.com/davibe/llvm-sys.rs?branch=add-replace-md-operand#fe9fd58592382c915b8ffc8ac27b4ca235b560fe"
 dependencies = [
  "cc",
  "lazy_static",

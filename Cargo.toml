@@ -20,7 +20,7 @@ libc = "0.2"
 thiserror = { version = "1.0", optional = true }
 ar = { version = "0.8", optional = true }
 log = { version = "0.4", optional = true }
-llvm-sys = { version = "160", optional = true }
+llvm-sys = { git = "https://github.com/davibe/llvm-sys.rs", branch = "add-replace-md-operand", optional=true}
 aya-rustc-llvm-proxy = { version = "0.5.0", optional = true }
 gimli = "0.26.2"
 
